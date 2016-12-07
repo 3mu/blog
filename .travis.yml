@@ -12,7 +12,6 @@ install:
 script:
   - hexo clean
   - hexo g
-  - hexo d
 
 after_script:
   - cd ./public
@@ -29,4 +28,4 @@ branches:
   - master
 env:
  global:
-   - GH_REF: github.com/3mu/blog.git
+   - GH_REF: github.com/3mu/3mu.github.io.git
