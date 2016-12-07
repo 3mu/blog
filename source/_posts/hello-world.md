@@ -3,7 +3,8 @@ title: Hello World
 ---
 
 ## Quick Start
+
 ``` 
-printf("Hello World"); 
+var hello=printf("Hello World"); 
 ```
 
