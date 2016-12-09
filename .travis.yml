@@ -14,10 +14,7 @@ script:
 
 after_script:
   - cd ./public
-  - touch .
-if [ ! -f CNAME ]; then
-    echo "mu0.me" > CNAME
-fi
+  - echo "mu0.me" > CNAME
   - git init
   - git config user.name "3mu"
   - git config user.email "316428218@qq.com"
