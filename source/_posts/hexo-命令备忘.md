@@ -15,6 +15,7 @@ $ cd blog
 $ npm install
 $ hexo server
 ```
+<!-- more -->
 # 简写
 ```
 hexo n "我的博客" == hexo new "我的博客" #新建文章
