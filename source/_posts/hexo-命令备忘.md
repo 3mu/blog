@@ -16,7 +16,7 @@ $ npm install
 $ hexo server
 ```
 # 简写
-```hexo
+```
 hexo n "我的博客" == hexo new "我的博客" #新建文章
 hexo p == hexo publish
 hexo g == hexo generate#生成
