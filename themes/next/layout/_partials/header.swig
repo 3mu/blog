@@ -3,7 +3,7 @@
     <div class="site-meta-headline">
       <a>
         <img class="custom-logo-image" src="{{ theme.custom_logo.image }}"
-             alt="{{ config.title }}"/>
+             alt="{{ config.author }}"/>
       </a>
     </div>
   {% endif %}
@@ -11,7 +11,7 @@
   <div class="custom-logo-site-title">
     <a href="{{ config.root }}"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">{{ config.title }}</span>
+      <span class="site-title">{{ config.author }}</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
