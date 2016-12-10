@@ -152,7 +152,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/me.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -239,7 +239,7 @@ post_meta:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image:
+  image: http://ohugkp1mj.bkt.clouddn.com/me.jpg
 
 
 # Code Highlight theme
