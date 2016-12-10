@@ -7,7 +7,7 @@ title: 3.mu
 subtitle: 
 description: 
 author: 3.mu
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,8 +63,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
-#theme: next
+#theme: maupassant
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
