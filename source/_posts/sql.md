@@ -39,6 +39,6 @@ tags:
 > 显示这个sql语句，因为长度有限，所以长的sql语句就显示不全，但是一个判断问题语句的重要依据。
 <!-- more -->
 ## QUERY
-```mysql
+```sql
 select user,host,info from information_schema.processlist WHERE ....
 ```
