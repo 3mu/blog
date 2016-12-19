@@ -15,6 +15,7 @@ tags: spring
 <!--方式二-->
 < context:component-scan base-package = "com.host.app.web" />//路径写到controller的上一层(扫描包详解见下面浅析)
 ```
+<!--more-->
 ## @RequestMapping
 RequestMapping是一个用来处理请求地址映射的注解，可用于类或方法上。用于类上，表示类中的所有响应请求的方法都是以该地址作为父路径。
 RequestMapping注解有六个属性，下面我们把她分成三类进行说明（下面有相应示例）
