@@ -68,8 +68,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
-scheme: Mist
+scheme: Muse
+# scheme: Mist
 # scheme: Pisces
 
 
@@ -237,9 +237,9 @@ post_meta:
 # Options:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
-custom_logo:
-  enabled: true
-  image: http://ohugkp1mj.bkt.clouddn.com/me.jpg
+#custom_logo:
+  #enabled: false
+  #image: http://ohugkp1mj.bkt.clouddn.com/me.jpg
 
 
 # Code Highlight theme
