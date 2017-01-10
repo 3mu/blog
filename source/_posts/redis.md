@@ -9,3 +9,4 @@ tags: redis
 redis-server redis.conf
 redis-cli shutdown
 ```
+<!--more-->
