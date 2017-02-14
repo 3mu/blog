@@ -1,5 +1,5 @@
 ---
-title: Spring Boot 属性配置和使用(转)
+title: Spring Boot 
 date: 2017-02-08 13:04:19
 tags: Spring
 ---
