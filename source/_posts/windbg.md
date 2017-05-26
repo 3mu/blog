@@ -3,7 +3,7 @@ title: Windbg
 date: 2017-02-08 13:04:19
 tags: Windbg
 ---
-##命令(加载调试器)
+## 命令(加载调试器)
 ```
 命令：
 .loadby sos mscorwks  .Net 3.5版本及以下
@@ -49,7 +49,7 @@ vertarget  查看系统运行时间
 !do 0aca1000  查看0aca1000地址中的对象
 !gcroot 0aca1000  查看谁root 了0aca1000对象
 ```
-##线程Hang住常用指令
+## 线程Hang住常用指令
 ```
  !threads   查看托管经程的统计信息
  !tp(threadpool)   查看一共设有多少个线程在运行
@@ -67,7 +67,7 @@ vertarget  查看系统运行时间
  lmvmcommonobjects
  !savemodule081f0000 d:\xiongli\commandobject.dll
 ``` 
-##内存指令：
+## 内存指令：
 ```
  S    可以搜索内存
  r   显示寄存器的信息
@@ -86,7 +86,7 @@ vertarget  查看系统运行时间
  5）在内存中搜索sina.com
  s –u  0012ff40 L?8000000 “sina.com”
 ```
-##其他常用指令：
+## 其他常用指令：
 ```
  lmf   列出当前进程中加载的所有DLL文件和对应的路径
  ~    显示线程信息和不同线程之间切换的值
