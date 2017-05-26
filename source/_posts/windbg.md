@@ -12,6 +12,7 @@ tags: Windbg
 说明：
 如果服务器的.Net版本与本机不匹配需要服务器版本的mscordacwks.dll文件，如下：.sympath=
 ``` 
+<!--more-->
 ##  基本操作指令
 ```
 !help    sos指令帮助
@@ -63,9 +64,9 @@ vertarget  查看系统运行时间
  !savemodule   保存DLL到本场
    
  使用例子：
- !ip2md0x09d30bao
+ !ip2md 0x09d30bao
  lmvmcommonobjects
- !savemodule081f0000 d:\xiongli\commandobject.dll
+ !savemodule 081f0000 d:\xiongli\commandobject.dll
 ``` 
 ## 内存指令：
 ```
