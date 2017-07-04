@@ -4,7 +4,9 @@ node_js: stable
 # S: Build Lifecycle
 install:
   - npm install
+  - npm install hexo --save
   - npm install hexo-generator-searchdb --save
+
 
 #before_script:
  # - npm install -g gulp
