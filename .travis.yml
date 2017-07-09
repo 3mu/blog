@@ -1,15 +1,18 @@
 language: node_js
 node_js: stable
 
-before_install:
-- npm install -g hexo
-- npm install -g hexo-cli
+# S: Build Lifecycle
 install:
-- npm install
-- npm install hexo-generator-searchdb --save
+  - npm install
+  - npm install hexo-generator-searchdb --save
+
+#before_script:
+ # - npm install -g gulp
+
 script:
   - hexo clean
   - hexo g
+
 after_script:
   - cd ./public
   - echo "mu0.me" > CNAME
