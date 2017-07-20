@@ -267,13 +267,13 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: mulin
-
+# duoshuo_shortname: mulin
+livere_uid: MTAyMC8yOTYyNS82MTkz
 # Disqus
 #disqus_shortname:
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 93485
 
 # Baidu Share
 # Available value:
