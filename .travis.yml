@@ -10,7 +10,7 @@ install:
  # - npm install -g gulp
 
 script:
-  - chmod +x ./gradlew build connectedCheck
+  - chmod +x ./node_modules/.bin/hexo
   - hexo g
 
 after_script:
