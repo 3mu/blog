@@ -15,7 +15,7 @@ script:
 
 after_script:
   - cd ./public
-  - echo "mu0.me" > CNAME
+  - echo "3mu.github.io" > CNAME
   - git init
   - git config user.name "3mu"
   - git config user.email "316428218@qq.com"
