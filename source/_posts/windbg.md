@@ -3,6 +3,12 @@ title: Windbg
 date: 2017-02-08 13:04:19
 tags: Windbg
 ---
+
+## 抓包命令
+```bat
+procdump64.exe -ma /accepteula   -n 1 6140 d:\
+```
+
 ## 命令(加载调试器)
 ```
 命令：
