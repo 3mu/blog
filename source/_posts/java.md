@@ -39,21 +39,17 @@ tags: java spring
 
 <!-- more -->
 
-### IDE/Waven 介绍
-
 #### Idea
 
 key-promoter 插件方便大家记住快捷键
 
-
-
-#### Spring
+### Spring
 
 + IOC 容器(xml方式声明/注解方式声明)
 + AOP(由于类的创建交给了容器 因此很方便实现IOC，**Proxy.newProxyInstance**)
 + `https://docs.spring.io/spring/docs/current/spring-framework-reference/index.html`
 
-##### Spring(IOC)
+#### Spring(IOC)
 
 + XML方式配置@Bean
 
@@ -147,7 +143,7 @@ public class JwtTokenUtil{
 }
 ```
 
-##### Spirng AOP
+#### Spirng AOP
 
 ```java
 package com.example.controller;  
@@ -211,9 +207,10 @@ public class LogAspect {
     }  
 }  
 ```
-#### Waven
 
-##### 常用命令
+### Waven
+
+#### 常用命令
 
 ```cmd
 mvn archetype:generate 创建Maven项目
@@ -224,7 +221,8 @@ mvn package
 mvn install
 mvn clean package -Dmaven.test.skip=true:
 ```
-#####  Spring Boot
+
+#### Spring Boot Pom
 
 + Spring Boot 项目引用
 
