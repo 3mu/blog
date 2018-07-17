@@ -1,4 +1,4 @@
----
+ons---
 title: consul集群搭建
 date: 2018-07-17 10:51:54
 tags: hexo
