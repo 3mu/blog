@@ -21,6 +21,7 @@ https://www.consul.io/downloads.html
 
 + consul -v
 
+<!-- more -->
 ## 启动加入集群
 
 ```shell
