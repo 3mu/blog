@@ -26,7 +26,7 @@ procdump64.exe -ma /accepteula   -n 1 6140 d:\
 !threadpool(!tp)   显示程序池信息
 ~54s   查看54号线程
 kb   显示当前线程的callstack
-~*e !clrstack  看所有线程的堆栈信息
+~*e!clrstack  看所有线程的堆栈信息
 !dumpheap  显示托管堆的信息
 !clrstack  显示调用栈
 !dumpstackobjects 打印当前thread的stack中保存的所有托管的object
