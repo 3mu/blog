@@ -22,8 +22,17 @@ Linux命令类
 
 ### grep
 
-    grep forest f.txt     #文件查找grep forest f.txt cpf.txt #多文件查找grep 'log' /home/admin -r -n #目录下查找所有符合关键字的文件cat f.txt | grep -i shopbase    grep 'shopbase' /home/admin -r -n --include *.{vm,java} #指定文件后缀grep 'shopbase' /home/admin -r -n --exclude *.{vm,java} #反匹配seq 10 | grep 5 -A 3    #上匹配seq 10 | grep 5 -B 3    #下匹配seq 10 | grep 5 -C 3    #上下匹配，平时用这个就妥了cat f.txt | grep -c 'SHOPBASE'
-
+```shell
+     grep forest f.txt     
+    #文件查找grep forest f.txt cpf.txt 
+    #多文件查找grep 'log' /home/admin -r -n 
+    #目录下查找所有符合关键字的文件cat f.txt | grep -i shopbase  grep 'shopbase' /home/admin -r -n --include *.{vm,java}
+    #指定文件后缀grep 'shopbase' /home/admin -r -n --exclude *.{vm,java}
+    #反匹配seq 10 | grep 5 -A 3  
+    #上匹配seq 10 | grep 5 -B 3    
+    #下匹配seq 10 | grep 5 -C 3   
+    #上下匹配，平时用这个就妥了cat f.txt | grep -c 'SHOPBASE'
+```
 ### awk
 
 1 基础命令
