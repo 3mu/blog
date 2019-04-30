@@ -50,7 +50,10 @@ docker build -t nacos-provider:0.0.4 .  --build-arg JAR=provider-0.0.1-SNAPSHOT.
 docker pull nginx
 docker run --name nacos-nginx -d -p 8848:80  -v /opt/nginx/nginx.conf/nginx.conf:/etc/nginx/nginx.conf  -v /opt/nginx/logs:/var/log/nginx -v /opt/nginx/logs:/etc/nginx/logs -d docker.io/nginx
 
-docker run --name p3 -e JAVA_OPT="-Dserver.port=998" -v /opt/docker/provider/application.yml:/application.yml -v /opt/docker/provider/log/:/log/ -d --network=host --privileged 172.16.1.103:5000/p1
+docker run --name cc4 -e JAVA_OPTS="-Dserver.port=8982 -Dapp.id=ngp-provider -Dapollo.cluster=DEV -Dapollo.meta=http://172.16.0.244:8080" --network=host -v /service/docker/provider/cc4/log/:/log/ -v /opt:/opt --privileged -d provider:7.0
+
+
+docker run --name c1 -e JAVA_OPTS="-Dserver.host=172.16.1.100 -Dserver.port=9993 -Dapp.id=ngp-provider -Dapollo.cluster=DEV -Dapollo.meta=http://172.16.0.244:8080 -Dlogging.file=/log/log.txt" --network=host -v /service/c1/log/:/log/ -v /opt:/opt --privileged -d 172.16.1.103/ngp/provider:1.1.2
 
 ```
 
@@ -110,4 +113,31 @@ systemctl daemon-reload
 systemctl restart docker
 docker push 192.168.0.153:5000/busybox
 docker pull 192.168.0.153:5000/busybox
+```
+
+
+## docker-compose 
+
+```
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+```
+
+
+## docker harbor
+
+``` json 
+
+cat /etc/docker/daemon.json 
+{
+  "insecure-registries": [
+    "172.16.1.103"
+  ]
+}
+
 ```
